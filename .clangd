@@ -1,0 +1,40 @@
+CompileFlags:                             
+    Add: 
+      [
+        -std=c++20,
+
+        # 启用有关文档注释的警告
+        -Wno-documentation,
+
+        # 当函数在使用前没有函数原型时
+        -Wno-missing-prototypes,
+
+        -Wno-unused-result,
+        # -pedantic,
+      ]
+Diagnostics:
+  ClangTidy:
+    Add:
+    [
+        performance-*,
+        bugprone-*,
+        modernize-*,
+        clang-analyzer-*,
+        portability-*,
+        readability-identifier*,
+    ]
+    Remove:
+    [
+        # abseil*,
+        # fuchsia*,
+        # llvmlib*,
+        # zircon*,
+        # altera*,
+        # google-readability-todo,
+        # readability-braces-around-statements,
+        # hicpp-braces-around-statements,
+        modernize-use-trailing-return-type,
+        readability-identifier-length,
+    ]
+    CheckOptions:
+      readability-identifier-naming.VariableCase: camelCase
