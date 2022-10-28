@@ -5,14 +5,23 @@ rules:
   space-word: 1
   # Add space between some punctuations.
   space-punctuation: 1
+  # Add space between brackets (), [] when near the CJK.
+  space-bracket: 1
   # Convert to fullwidth.
   fullwidth: 1
-  # Convert to halfwidth.
-  halfwidth: 1
   # To remove space near the fullwidth.
   no-space-fullwidth: 1
+  # Fullwidth alphanumeric characters to halfwidth.
+  halfwidth-word: 1
+  # Fullwidth punctuations to halfwidth in english.
+  halfwidth-punctuation: 1
   # Spellcheck
   spellcheck: 2
+textRules:
+  # Config special rules for some texts
+  # For example, if we wants to let "Hello你好" just warning, and "Hi你好" to ignore
+  # "Hello你好": 2
+  # "Hi你好": 0
 spellcheck:
   # Correct Words (Case insensitive) for by Spellcheck
   words:
@@ -23,7 +32,7 @@ spellcheck:
     - Git
     - Node.js
     - nodejs = Node.js
-    - Vim
+    - VIM
     - DNS
     - HTTP
     - SSL

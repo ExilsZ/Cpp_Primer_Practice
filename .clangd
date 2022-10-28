@@ -1,5 +1,5 @@
-CompileFlags:                             
-    Add: 
+CompileFlags:
+    Add:
       [
         -std=c++20,
 
