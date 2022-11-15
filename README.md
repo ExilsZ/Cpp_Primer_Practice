@@ -4,14 +4,14 @@
 
 《C++ Primer 中文版（第 5 版）》学习仓库，包括**笔记**和**课后练习答案**。
 
-使用以下 VSC 插件和 Clang-format 格式化： 
-  - [AutoCorrect](https://marketplace.visualstudio.com/items?itemName=huacnlee.auto-correct) 
+使用以下 VSC 插件和 Clang-format 格式化：
+  - [AutoCorrect](https://marketplace.visualstudio.com/items?itemName=huacnlee.auto-correct)
   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 ## 环境
 
 - ~~system: ubuntu 16.04~~
-- system: window 
+- system: window
 - IDE: VS Code
 - ~~compiler: g++~~
 - compiler: clang++
@@ -24,7 +24,7 @@
 - 第 I 部分 : C++基础
   - 第 2 章 : 变量和基本类型  [笔记](./notes/ch02.md)  [练习](./excersize/ch02.md)
   - 第 3 章 : 字符串、向量和数组  [笔记](./notes/ch03.md)  [练习](./excersize/ch03.md)
-  - 第 4 章 : 表达式  [笔记](./notes/ch04.md)  [练习](./excersize/ch04.md)  
+  - 第 4 章 : 表达式  [笔记](./notes/ch04.md)  [练习](./excersize/ch04.md)
   - 第 5 章 : 语句  [笔记](./notes/ch05.md)  [练习](./excersize/ch05.md)
   - 第 6 章 : 函数  [笔记](./notes/ch06.md)  [练习](./excersize/ch06.md)
   - 第 7 章 : 类  [笔记](./notes/ch07.md)  [练习](./excersize/ch07.md)

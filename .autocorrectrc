@@ -32,7 +32,7 @@ spellcheck:
     - Git
     - Node.js
     - nodejs = Node.js
-    - VIM
+    - Vim
     - DNS
     - HTTP
     - SSL
