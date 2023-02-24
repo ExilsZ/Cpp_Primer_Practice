@@ -29,6 +29,7 @@ fileTypes:
   # "*.js": javascript
   # ".mdx": markdown
   "md": markdown
+  "*.cpp": C++
 spellcheck:
   # Correct Words (Case insensitive) for by Spellcheck
   words:
@@ -43,3 +44,4 @@ spellcheck:
     - DNS
     - HTTP
     - SSL
+    - PowerShell

@@ -10,11 +10,10 @@
 
 ## 环境
 
-- ~~system: ubuntu 16.04~~
-- system: window
+- System: Windows
 - IDE: VS Code
-- ~~compiler: g++~~
-- compiler: clang++
+- Compiler: clang++
+- Terminal : PowerShell
 
 [豆瓣链接](https://book.douban.com/subject/25708312/)
 
