@@ -1,5 +1,6 @@
 #include <iostream>
-int main() {
+
+auto main() -> int {
     std::cout << "输入两个整数：" << std::endl;
     int x{0}, y{0};
     std::cin >> x >> y;

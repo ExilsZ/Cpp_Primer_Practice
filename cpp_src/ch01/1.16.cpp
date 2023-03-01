@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+auto main() -> int {
     float val{0}, sum{0};
     for (; std::cin >> val;) {
         sum += val;
