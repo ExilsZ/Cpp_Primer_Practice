@@ -1,11 +1,9 @@
-.idea
-cmake-build-debug
+build
 test_in_file
 test_out_file
 CMakeLists.txt
 .DS_Store
 .vscode
 *.exe
-cpp_src
-build
 test.cpp
+temp.cpp

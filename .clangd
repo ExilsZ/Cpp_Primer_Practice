@@ -47,6 +47,6 @@ Diagnostics:
 
 InlayHints:
   Designators: true
+  DeducedTypes: true
   Enabled: true
   ParameterNames: true
-  DeducedTypes: true
