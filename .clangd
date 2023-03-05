@@ -5,7 +5,8 @@ CompileFlags:
         -Wno-documentation,
         # 当函数在使用前没有函数原型时
         -Wno-missing-prototypes,
-
+        # -stdlib=libc++,
+        # -DLIBCXX_ENABLE_INCOMPLETE_FEATURES=ON,
         # -Wno-unused-result,
         -pedantic,
       ]
@@ -15,7 +16,6 @@ Diagnostics:
   ClangTidy:
     Add:
     [
-
         bugprone-*,
         cert-*,
         clang-analyzer-*,
@@ -37,6 +37,7 @@ Diagnostics:
         # readability-braces-around-statements,
         # hicpp-braces-around-statements,
         # modernize-use-trailing-return-type,
+        misc-no-recursion,
         readability-identifier-length,
     ]
     CheckOptions:
