@@ -2,9 +2,9 @@ CompileFlags:
     Add:
       [ -std=c++2b,
         # 启用有关文档注释的警告
-        -Wno-documentation,
+        # -Wno-documentation,
         # 当函数在使用前没有函数原型时
-        -Wno-missing-prototypes,
+        # -Wno-missing-prototypes,
         # -stdlib=libc++,
         # -DLIBCXX_ENABLE_INCOMPLETE_FEATURES=ON,
         # -Wno-unused-result,
@@ -39,6 +39,8 @@ Diagnostics:
         # modernize-use-trailing-return-type,
         misc-no-recursion,
         readability-identifier-length,
+        cppcoreguidelines-avoid-magic-numbers,
+        bugprone-easily-swappable-parameters,
     ]
     CheckOptions:
       readability-identifier-naming.VariableCase: camelCase

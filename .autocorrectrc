@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://huacnlee.github.io/autocorrect/schema.json
 # Config rules
 rules:
   # Auto add spacing between CJK (Chinese, Japanese, Korean) and English words.
@@ -17,19 +18,18 @@ rules:
   halfwidth-punctuation: 1
   # Spellcheck
   spellcheck: 2
-textRules:
-  # Config special rules for some texts
-  # For example, if we wants to let "Hello你好" just warning, and "Hi你好" to ignore
-  # "Hello你好": 2
-  # "Hi你好": 0
+# textRules:
+#   # Config special rules for some texts
+#   # For example, if we wants to let "Hello你好" just warning, and "Hi你好" to ignore
+#   # "Hello你好": 2
+#   # "Hi你好": 0
 fileTypes:
   # Config the files associations, you config is higher priority than default.
   # "rb": ruby
   # "Rakefile": ruby
   # "*.js": javascript
-  # ".mdx": markdown
-  "md": markdown
-  "*.cpp": C++
+  ".md": markdown
+  ".cpp": c
 spellcheck:
   # Correct Words (Case insensitive) for by Spellcheck
   words:

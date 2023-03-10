@@ -7,3 +7,5 @@ CMakeLists.txt
 *.exe
 test.cpp
 temp.cpp
+.xmake
+xmake.lua
